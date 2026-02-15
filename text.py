@@ -3,11 +3,11 @@ import requests
 import datetime
 import time
 
-BOT_TOKEN = "7685207196:AAFbFhmq24CqCTX2tmaEDFbTakL7Q29CWy4"
-bot = telebot.TeleBot(BOT_TOKEN)
+BOT_TOKEN = "8493362025:AAHrA0HUKtPHHKcwvu4IiJQZrJLWlxMXq3w"
+bot = telebot.enoxerx_bot(BOT_TOKEN)
 
-CHANNEL_USERNAME = "tools_channe"
-AUTHORIZED_OWNERS = [5339705829]  # Replace with your ID
+CHANNEL_USERNAME = "— 𝐌𝐈𝐊𝐄𝐘"
+AUTHORIZED_OWNERS = [5193503724]  # Replace with your ID
 
 # === Data Stores ===
 daily_usage = {}  # {user_id: usage_count}
@@ -268,4 +268,5 @@ while True:
         bot.polling(timeout=60, long_polling_timeout=45)
     except Exception as e:
         print("Polling failed, retrying in 10 seconds:", e)
+
         time.sleep(10)

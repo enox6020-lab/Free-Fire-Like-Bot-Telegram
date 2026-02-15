@@ -6,8 +6,8 @@ import time
 BOT_TOKEN = "8493362025:AAHrA0HUKtPHHKcwvu4IiJQZrJLWlxMXq3w"
 bot = telebot.enoxerx_bot(BOT_TOKEN)
 
-CHANNEL_USERNAME = "— 𝐌𝐈𝐊𝐄𝐘"
-AUTHORIZED_OWNERS = [5193503724]  # Replace with your ID
+CHANNEL_USERNAME = "@enoxer8585"
+AUTHORIZED_OWNERS = [7366106605]  # Replace with your ID
 
 # === Data Stores ===
 daily_usage = {}  # {user_id: usage_count}
@@ -270,3 +270,4 @@ while True:
         print("Polling failed, retrying in 10 seconds:", e)
 
         time.sleep(10)
+
